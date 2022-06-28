@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UserFirebase</string>
+    <string name="log_in">LOG IN</string>
+    <string name="register">REGISTER</string>
+    <string name="jane_example_com">jane@example.com</string>
+    <string name="password">************</string>
+    <string name="next">NEXT</string>
+    <string name="sign_up">SIGN UP</string>
+</resources>
