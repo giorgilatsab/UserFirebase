@@ -17,10 +17,10 @@
         android:textColor="@color/black"
         android:textSize="36sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/appCompatButton" />
+        app:layout_constraintTop_toBottomOf="@+id/backReg" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/appCompatButton"
+        android:id="@+id/backReg"
         android:layout_width="11dp"
         android:layout_height="11dp"
         android:layout_marginStart="32dp"

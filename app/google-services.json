@@ -1,34 +1,33 @@
 {
   "project_info": {
-    "project_number": "711865483308",
-    "firebase_url": "https://firefirefire-b3480-default-rtdb.firebaseio.com",
-    "project_id": "firefirefire-b3480",
-    "storage_bucket": "firefirefire-b3480.appspot.com"
+    "project_number": "396356831672",
+    "project_id": "userfirebase-a343a",
+    "storage_bucket": "userfirebase-a343a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:711865483308:android:f54289f41411f93285d189",
+        "mobilesdk_app_id": "1:396356831672:android:a76c43d06f50c45f79274d",
         "android_client_info": {
           "package_name": "com.giorgi.userfirebase"
         }
       },
       "oauth_client": [
         {
-          "client_id": "711865483308-psjqksln88kfgii1ufjuoo6pli91f0o0.apps.googleusercontent.com",
+          "client_id": "396356831672-cav2gmias1664e49v3mn123qdc9barem.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBIzqFtCcJEmOh1mIEJE2s47hBoXDkHkBQ"
+          "current_key": "AIzaSyDZ827jcaK8bWID-_xfY7HRLgTCOC4SUVE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "711865483308-psjqksln88kfgii1ufjuoo6pli91f0o0.apps.googleusercontent.com",
+              "client_id": "396356831672-cav2gmias1664e49v3mn123qdc9barem.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

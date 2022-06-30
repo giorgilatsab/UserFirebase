@@ -3,6 +3,7 @@ package com.giorgi.userfirebase
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.giorgi.userfirebase.databinding.ActivityRegisterBinding
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
@@ -16,16 +17,26 @@ class Register : AppCompatActivity() {
         binding = ActivityRegisterBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.BtNext.setOnClickListener{
-          val intentNext = Intent(this, RegisterSignUp::class.java).apply {
-              putExtra("email",binding.EdEmail.text.toString())
-              putExtra("password",binding.EdPassword.text.toString())
-          }
-            startActivity(intentNext)
-            val database = Firebase.database
-            val myRef = database.getReference("message")
+        binding.back.setOnClickListener{
+            val intentBack = Intent(this, MainActivity::class.java)
+            startActivity(intentBack)
+        }
 
-            myRef.setValue("Hello, World!")
+        binding.BtNext.setOnClickListener{
+            val email = binding.EdEmail.text.toString()
+            val password = binding.EdPassword.text.toString()
+            if (email.isEmpty() || password.isEmpty()){
+                Toast.makeText(this, "გთხოვთ ჩაწეროთ მონაცემები", Toast.LENGTH_SHORT).show()
+            }
+            else{
+                val intentNext = Intent(this, RegisterSignUp::class.java).apply {
+                    putExtra("email",email)
+                    putExtra("password",password)
+                }
+                startActivity(intentNext)
+            }
+
+
         }
     }
 
